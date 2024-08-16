@@ -16,16 +16,16 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Sobre a loja</a>
+                        <a href="#Sobre">Sobre a loja</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>    
+                        <a href="#Contato">Contato</a>    
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section>
+    <section id="Sobre">
         <div class="conteiner">
             <img class="fachada" src="./Media/loja.jpg" alt="Fachada da loja games store" />
             <div>
@@ -52,10 +52,10 @@
                 <div>
                     <h3>Fale conosco</h3>
                     <form>
-                        <input type="text" placeholder="Seu Nome"/>
-                        <input type="email" placeholder="Seu E-mail"/>
+                        <input type="text" placeholder="Seu Nome" required/>
+                        <input type="email" placeholder="Seu E-mail" required/>
                         <input type="tel" placeholder="Seu Telefone (Opcional)"/>
-                        <textarea placeholder="Sua mensagem"></textarea>
+                        <textarea placeholder="Sua mensagem" required></textarea>
                         <button type="submit">Enviar</button>
                     </form>
                 </div>
@@ -88,5 +88,12 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div class="conteiner">
+            <p>
+                $copy; Games Stores - Todos os direitos reservados - 2022
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
